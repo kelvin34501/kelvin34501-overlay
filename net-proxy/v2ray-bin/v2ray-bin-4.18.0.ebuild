@@ -10,16 +10,11 @@ DESCRIPTION="A platform for building proxies to bypass network restrictions."
 HOMEPAGE="https://www.v2ray.com/"
 SRC_URI="
 	amd64?	( https://github.com/v2ray/v2ray-core/releases/download/$MY_PV/v2ray-linux-64.zip )
-	x86?	( https://github.com/v2ray/v2ray-core/releases/download/$MY_PV/v2ray-linux-32.zip )
-	arm?	( https://github.com/v2ray/v2ray-core/releases/download/$MY_PV/v2ray-linux-arm.zip )
-	arm64?	( https://github.com/v2ray/v2ray-core/releases/download/$MY_PV/v2ray-linux-arm64.zip )
-	mips?	( https://github.com/v2ray/v2ray-core/releases/download/$MY_PV/v2ray-linux-mips64.zip )
-	s390?	( https://github.com/v2ray/v2ray-core/releases/download/$MY_PV/v2ray-linux-s390x.zip )
 "
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~arm ~arm64 ~mips ~s390"
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND=""
