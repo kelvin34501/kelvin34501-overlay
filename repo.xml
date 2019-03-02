@@ -1,0 +1,11 @@
+<repositories encoding="unicode" version="1.0">
+  <repo priority="50" quality="experimental">
+    <name>kelvin34501-overlay</name>
+    <description>kelvin34501 personal overlay</description>
+    <owner>
+      <email>kelvin34501@gmail.com</email>
+      <name>kelvin34501</name>
+    </owner>
+    <source type="git">https://github.com/kelvin34501/kelvin34501-overlay.git</source>
+  </repo>
+</repositories>
